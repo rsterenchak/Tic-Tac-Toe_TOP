@@ -1,0 +1,218 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+@font-face {
+font-family: 'HandJet
+url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Roboto:ital,wght@0,300;1,100&display=swap');
+font-weight: normal;
+font-style: normal;
+}
+
+.outerContainer {
+  display: grid;
+  border: 6px solid red;
+  height: 100vh;
+  grid-template-areas: 
+    ". . topSpace topSpace topSpace . ."
+    ". . top top top . ."
+    ". . box0 box0 box0 . ."
+    ". . box1 box2 box3 . ."
+    "name1 space box4 box5 box6 space2 name2"
+    ". . box7 box8 box9 . ."
+    ". . spacer spacer spacer . ."
+    ". . box10 box10 box10 . ."
+    ;
+  justify-content: center;
+  align-content: center;
+}
+
+#name1 {
+  display: grid;
+  grid-area: name1;
+  width: 110px;
+  font-size: 35px;
+  font-family: 'HandJet';
+  justify-content: center;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-radius: 6px;
+}
+
+#name2 {
+  display: grid;
+  grid-area: name2;
+  width: 110px;
+  font-size: 35px;
+  font-family: 'HandJet';
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+#space {
+  display: grid;
+  grid-area: space;
+  width: 60px;
+}
+
+#space2 {
+  display: grid;
+  grid-area: space2;
+  width: 60px;
+}
+
+#topSpace {
+  display: grid;
+  grid-area: topSpace;
+  font-size: 35px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  justify-content: center;
+  align-content: center;
+  height: 50px;
+  width: 190px;
+  font-family: 'HandJet';
+  
+}
+
+#top {
+  display: grid;
+  grid-area: top;
+  height: 60px;
+  
+}
+
+#spacer {
+  display: grid;
+  grid-area: spacer;
+  height: 60px;
+}
+
+
+#box1{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;  
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box1;
+}
+
+
+#box2{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box2;
+  
+}
+#box3{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box3;
+  
+}
+#box4{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box4;
+  
+}
+#box5{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box5;
+  
+}
+#box6{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box6;
+  
+}
+#box7{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box7;
+  
+}
+#box8{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box8;
+  
+}
+#box9{
+  display: grid;
+  border: 3px solid black;
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  grid-area: box9;
+  
+}
+
+#box10 {
+  display: grid;
+  grid-area: box10;
+  justify-content: center;
+  align-content: center;
+  font-size: 50px;
+  
+}
+
+#button {
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Initial shadow */
+  font-size: 30px;
+  font-family: 'HandJet';
+  
+}
+
+#button:active {
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  
+}
