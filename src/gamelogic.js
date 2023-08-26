@@ -1,4 +1,7 @@
 // Creator: Robert Sterenchak
+import _ from 'lodash';
+
+// const { test } = require("node:test");
 
 
 
@@ -376,6 +379,9 @@ var BoardModule = (function () {
   
   hoverButton10.addEventListener("click", function() {  
     
+    let test = _.join(['Hello', 'webpack'], ' ');// TESTING - npm module (_join function)
+    console.log(test);
+
     let game = GameModule(); // new game object, return 'information array' to be used in 'eventListeners'
   
   }); // ends 'new Game' eventListener  
